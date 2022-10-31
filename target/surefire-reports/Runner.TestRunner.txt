@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 50.475 sec <<< FAILURE!
+Login Successful(HotelApp login #1)  Time elapsed: 13.308 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Hello [vasuvespag]!> but was:<Hello [aryan1207]!>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.stepDefinition.Test_Steps.login_is_successful(Test_Steps.java:68)
+	at ✽.Login is successful(file:///C:/Users/Administrator/JavaWorkspace/HotelAppCucumDemo/Features/DatatableDemo.feature:11)
+
+Login Successful(HotelApp login #2)  Time elapsed: 2.054 sec  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: unable to discover open window in chrome
+  (Session info: chrome=102.0.5005.63) 
+Host info: host: 'WINDOWS-UNR7VLH', ip: '172.20.0.25'
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:144)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:49)
+	at com.stepDefinition.Test_Steps.user_is_on_the_hotel_app_home_page(Test_Steps.java:27)
+	at ✽.User is on the HotelApp HomePage(file:///C:/Users/Administrator/JavaWorkspace/HotelAppCucumDemo/Features/HotelApp.feature:5)
+
+Login Successful #2(HotelApp login #3)  Time elapsed: 5.979 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Hello [vasuvespag]!> but was:<Hello [aryan1207]!>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.stepDefinition.Test_Steps.login_is_successful(Test_Steps.java:68)
+	at ✽.Login is successful(file:///C:/Users/Administrator/JavaWorkspace/HotelAppCucumDemo/Features/OutlineDemo.feature:9)
+
