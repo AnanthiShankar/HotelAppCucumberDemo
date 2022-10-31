@@ -1,18 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 58.791 sec <<< FAILURE!
-Login Successful(HotelApp login #1)  Time elapsed: 14.595 sec  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<Hello [vasuvespag]!> but was:<Hello [aryan1207]!>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at com.stepDefinition.Test_Steps.login_is_successful(Test_Steps.java:68)
-	at ?.Login is successful(file:///C:/Users/Administrator/JavaWorkspace/HotelAppCucumDemo/Features/DatatableDemo.feature:11)
-
-Login Successful #2(HotelApp login #3)  Time elapsed: 6.65 sec  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<Hello [vasuvespag]!> but was:<Hello [aryan1207]!>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at com.stepDefinition.Test_Steps.login_is_successful(Test_Steps.java:68)
-	at ?.Login is successful(file:///C:/Users/Administrator/JavaWorkspace/HotelAppCucumDemo/Features/OutlineDemo.feature:9)
-
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 62.146 sec
