@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="Runner.TestRunner" time="60.821" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="Runner.TestRunner" time="62.449" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
@@ -63,11 +63,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="HotelApp login #1" name="Login Successful" time="14.293"/>
-  <testcase classname="HotelApp login #2" name="Login Successful" time="7.219"/>
-  <testcase classname="HotelApp login Param" name="Login Successful" time="6.857"/>
-  <testcase classname="HotelApp" name="SearchHotel Successful" time="7.762"/>
-  <testcase classname="HotelApp" name="Select Hotel" time="11.616"/>
-  <testcase classname="HotelApp login #3" name="Login Successful #1" time="6.78"/>
-  <testcase classname="HotelApp login #3" name="Login Successful #2" time="6.294"/>
+  <testcase classname="HotelApp login #1" name="Login Successful" time="14.893"/>
+  <testcase classname="HotelApp login #2" name="Login Successful" time="7.352"/>
+  <testcase classname="HotelApp login Param" name="Login Successful" time="6.943"/>
+  <testcase classname="HotelApp" name="SearchHotel Successful" time="9.428"/>
+  <testcase classname="HotelApp" name="Select Hotel" time="9.31"/>
+  <testcase classname="HotelApp login #3" name="Login Successful #1" time="6.765"/>
+  <testcase classname="HotelApp login #3" name="Login Successful #2" time="7.758"/>
 </testsuite>
