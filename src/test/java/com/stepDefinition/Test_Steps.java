@@ -36,6 +36,7 @@ public class Test_Steps {
 		System.out.println("Inside When Method of username Method");
 		//WebElement uname = driver.findElement(By.id("username"));
 		logPg.userid("vasuvespag");
+		System.out.println("Checking the Jenkins triggering from powershell");
 		//name.sendKeys("vasuvespag");
 
 	}
