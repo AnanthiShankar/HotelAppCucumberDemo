@@ -27,7 +27,7 @@ public class Test_Steps {
 		driver = new ChromeDriver();
 		logPg= new LoginPage1(driver);
 		driver.get("http://Adactinhotelapp.com");
-
+		System.out.println("Checking the Jenkins triggering");
 	}
 
 	@When("User enters the username details")
