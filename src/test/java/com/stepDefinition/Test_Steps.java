@@ -38,6 +38,7 @@ public class Test_Steps {
 		logPg.userid("vasuvespag");
 		System.out.println("Checking the Jenkins triggering from powershell");
 		//name.sendKeys("vasuvespag");
+		System.out.println("Checking the Jenkins triggering for every 5 mins");
 
 	}
 
